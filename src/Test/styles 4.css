@@ -1,0 +1,147 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+  }
+  
+  .hero-overlay {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero .btn {
+    background-color: #e31837;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  /* Promo */
+  .promo {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .promo h2 {
+    font-size: 1.8rem;
+  }
+  
+  /* Events */
+  .events {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .events-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Gallery */
+  .gallery {
+    padding: 50px 20px;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+  }
+  
+  .gallery-item {
+    background-color: #ddd;
+    height: 150px;
+  }
+  
+  /* Newsletter */
+  .newsletter {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .newsletter input[type="email"] {
+    padding: 10px;
+    width: 80%;
+  }
+  
+  .newsletter .btn {
+    background-color: #e31837;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+  }
+  
+  /* Location */
+  .location {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  

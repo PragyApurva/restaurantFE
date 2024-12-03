@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Cantina</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">LA CANTINA</div>
+    <nav class="nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#happenings">Happenings</a></li>
+        <li><a href="#reservations">Reservations</a></li>
+        <li><a href="#menu">Menu</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay">
+        <h1>California's Best Mexican-Inspired Bar</h1>
+        <a href="#menu" class="btn">See the Menu</a>
+      </div>
+    </section>
+
+    <section class="promo">
+      <div class="promo-text">
+        <h2>Tequila – It Makes Me Happy!</h2>
+        <p>1+1 from 6PM to 8PM</p>
+      </div>
+    </section>
+
+    <section class="events" id="happenings">
+      <h2>DJ's Playing This Weekend</h2>
+      <div class="events-grid">
+        <div>
+          <h3>Nov. 18</h3>
+          <p>San Pedro</p>
+        </div>
+        <div>
+          <h3>Nov. 19</h3>
+          <p>Mexico</p>
+        </div>
+        <div>
+          <h3>Nov. 20</h3>
+          <p>Carmen</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <h2>Our Gallery</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item"></div>
+        <div class="gallery-item"></div>
+        <div class="gallery-item"></div>
+        <div class="gallery-item"></div>
+      </div>
+      <button class="btn">Load More</button>
+    </section>
+
+    <section class="newsletter">
+      <h2>Join Our Mailing List</h2>
+      <form>
+        <input type="email" placeholder="Enter your email here" required>
+        <div>
+          <input type="checkbox" id="subscribe" name="subscribe">
+          <label for="subscribe">Yes, subscribe me to your newsletter</label>
+        </div>
+        <button type="submit" class="btn">Subscribe Now</button>
+      </form>
+    </section>
+
+    <section class="location" id="reservations">
+      <h2>Location & Hours</h2>
+      <p>500 Terry Francine St, San Francisco, CA 94158</p>
+      <p>Open Daily 6PM till 1AM</p>
+      <form class="reservation-form">
+        <label for="party-size">Party size:</label>
+        <select id="party-size">
+          <option value="2">2 guests</option>
+          <option value="4">4 guests</option>
+          <option value="6">6 guests</option>
+        </select>
+        <label for="date">Date:</label>
+        <input type="date" id="date" required>
+        <label for="time">Time:</label>
+        <input type="time" id="time" required>
+        <button type="submit" class="btn">Find a Table</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-info">
+      <p>© 2023 by LA CANTINA. Powered and secured by Wix.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.events {
+    background-color: #F1FAEE;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .events h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .events-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .events-grid div {
+    background-color: #A8DADC;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .events-grid div h3 {
+    font-size: 24px;
+    color: #1D3557;
+  }
+  
+  .events-grid div p {
+    font-size: 18px;
+    color: #333;
+  }
+  
