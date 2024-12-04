@@ -10,6 +10,7 @@ function Navbar() {
         <li><a href="#reservations">Reservations</a></li>
         <li><a href="#menu">Menu</a></li>
       </ul>
+      <a href="#menu" className="menuButton">VIEW MENU</a>
     </div>
   );
 }

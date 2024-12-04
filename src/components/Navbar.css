@@ -29,3 +29,26 @@ ul li a:hover {
   background-color: #E63946;
   color:white;
 }
+
+.menuButton {
+  padding: 22px;
+  background-color: #EA2306;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 50%;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 60px;
+  top: 10%;
+  text-decoration: underline;
+}
+
+.menuButton:hover {
+  background-color: #D62828;
+}
