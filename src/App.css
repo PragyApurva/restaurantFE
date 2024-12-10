@@ -4,4 +4,6 @@
   background-image: url('../public/background.png');
   background-color: black;
   color: black;
+  background-attachment: fixed; /* This will fix the background image */
+  background-size: cover; /* This ensures the background image covers the entire element */
 }

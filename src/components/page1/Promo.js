@@ -1,50 +1,37 @@
-import React from "react";
-import "./Promo.css";
+import React from 'react';
+import './Promo.css';
+import img1 from './images/03.jpg'; 
 
-const gridSections = [
-  {
-    color: "black",
-    title: "Welcome to Our Restaurant",
-    text: "Experience fine dining at its best",
-    height: "300px"
-  },
-  {
-    bg: "black",
-    color: "white",
-    title: "California's best Mexican-Inspired restaurant",
-    text: "Fusion of traditional and contemporary flavors",
-    height: "300px"
-  },
-  {
-    bg: "black",
-    color: "white",
-    title: "Elegant Atmosphere",
-    text: "Perfect ambiance for memorable dining",
-    height: "300px"
-  }
-];
+const Promo = () => {
+  const gridSections = [
+    { bg: 'transparent', color: 'black', title: 'Welcome to Our Restaurant', text: 'Experience fine dining at its best', opacity: 0 },
+    { bg: 'rgba(26, 26, 26, 1)', color: 'white', title: 'Welcome to Our Restaurant', text: 'Experience fine dining at its best' },
+    { bg: 'rgba(26, 26, 26, 1)', color: 'white', title: 'Elegant Atmosphere', text: 'Perfect ambiance for memorable dining' },
+    { bg: 'green', color: 'white', title: '', image: img1 },
+  ];
 
-function Promo() {
   return (
-    <div style={{ 
-      display: "grid", 
-      gridTemplateColumns: "1fr 1fr",
-      marginTop: "4rem"
-    }}>
+    <div className="promo-grid">
       {gridSections.map((section, index) => (
-        <section key={index} style={{ 
-          backgroundColor: section.bg, 
-          color: section.color,
-          padding: "40px",
-          textAlign: "center"
-        }}>
+        <div
+          key={index}
+          className="grid-item"
+          style={{
+            backgroundColor: section.bg,
+            color: section.color,
+            opacity: section.opacity || 1,
+            backgroundImage: section.image ? `url(${section.image})` : 'none',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center'
+            
+          }}
+        >
           <h2>{section.title}</h2>
           <p>{section.text}</p>
-        </section>
+        </div>
       ))}
-      <div class="imageInsertion" />
     </div>
   );
-}
+};
 
 export default Promo;
