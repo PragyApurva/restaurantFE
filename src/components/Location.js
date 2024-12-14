@@ -9,7 +9,7 @@ function Location() {
     const googleMapsUrl = `https://www.google.com/maps?q=${position.lat},${position.lng}`;
     window.open(googleMapsUrl, "_blank");
   };
-
+  
   return (
     <section className="location" id="reservations">
       <h2>Location</h2>
@@ -35,7 +35,7 @@ function Location() {
           </form>
         </div>
         <div className="addMaps" style={{ height: '400px', width: '100%', marginTop: '20px' }}>
-          <APIProvider apiKey={process.env.GOOGLE_MAPS_API_KEY}>
+          <APIProvider apiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}>
             <Map
               defaultCenter={position}
               defaultZoom={15}
