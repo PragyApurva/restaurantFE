@@ -1,22 +1,31 @@
-.promo {
-    background-color: #1D3557;
-    color: #fff;
-    text-align: center;
-    padding: 40px 20px;
-  }
+.promo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0; 
+  justify-content: center;
+  align-items: center;
+  width: 70vw; 
+  height: 120vh; 
+  margin: auto; 
+ 
+  margin-top: 8vw;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
   
-  .promo-text h2 {
-    font-size: 36px;
-    margin-bottom: 10px;
-  }
-  
-  .promo-text p {
-    font-size: 18px;
-    margin: 0;
-  }
-  .imageInsertion{
-    background-image: url('../../../public/lemonade.avif');
-    background-size: cover;
-    background-position: center;
-    min-height: 300px;
-  }
+  height: 100%; 
+  width: 100%; 
+}
+
+.grid-item img{
+  width: 110%;
+  height: 500px;
+
+}
