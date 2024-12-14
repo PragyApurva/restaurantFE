@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import './Gallery.css';
-import img1 from './images/01.jpg'; // Import your images
-import img2 from './images/02.jpeg';
-import img3 from './images/03.jpg';
-import img4 from './images/04.jpg';
-import img5 from './images/05.jpg';
-import img6 from './images/06.jpg';
 
 const Gallery = () => {
   const [showMore, setShowMore] = useState(false);
 
-  const images = [img1, img2, img3, img4, img5, img6];
+  const images = [
+    '/img/burger.jpg',
+    '/img/fruits.jpg',
+    '/img/shake.jpg',
+    '/img/juice.jpg',
+    '/img/salad.jpg',
+    '/img/smoothie.jpg'
+  ];
   const initialImages = images.slice(0, 3);
   const moreImages = images.slice(3, 6);
 

@@ -1,13 +1,11 @@
 import React from 'react';
 import './Promo.css';
-import img1 from './images/03.jpg'; 
-
 const Promo = () => {
   const gridSections = [
     { bg: 'transparent', color: 'black', title: 'Welcome to Our Restaurant', text: 'Experience fine dining at its best', opacity: 0 },
     { bg: 'rgba(26, 26, 26, 1)', color: 'white', title: 'Welcome to Our Restaurant', text: 'Experience fine dining at its best' },
     { bg: 'rgba(26, 26, 26, 1)', color: 'white', title: 'Elegant Atmosphere', text: 'Perfect ambiance for memorable dining' },
-    { bg: 'green', color: 'white', title: '', image: img1 },
+    { bg: 'green', color: 'white', title: '', image: './img/juice2.jpg' },
   ];
 
   return (

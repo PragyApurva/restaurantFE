@@ -1,12 +1,12 @@
 import React from 'react';
 import './menu.css'; // Import the CSS file
-import photo1 from './page1/images/logog.png'; 
+
 const Menu = () => {
   return (
     <div className="menu-container page1">
       
       <div className="hero-overlay">
-        <img src={photo1} alt="logo" className="logo" />
+        <img src="/images/logog.png" alt="logo" className="logo" />
         <h1>California Republic</h1>
       </div>
       <h1 className="menu-heading">Drinks</h1>
