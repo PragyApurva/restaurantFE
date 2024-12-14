@@ -8,7 +8,6 @@ import "./Hero.css";
 function Hero() {
   return (
     <section className="hero" id="home">
-      <img src="/images/background.png" alt="background" className="bg" />
       <div className="hero-overlay">
         <img src="/images/logog.png" alt="logo" className="logo" />
         <h1>California Republic</h1>

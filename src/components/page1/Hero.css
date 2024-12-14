@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
-.bg{
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  z-index: -1;
-}
+
 .hero {
     text-align: center;
     padding: 0px 0px;
@@ -32,17 +22,9 @@
   .firstImage{
 
     background-image: url('../../../public/firstJuice.jpg');
-    /* background: url('../../public/first.jpg') no-repeat; */
-    /* width: 100vw; */
     height: 50vw;
     background-size: cover;
-    /* margin-top: 2.5vw; */
   }
-  
-/*   
-  .hero .firstImage {
-    background-size: cover;
-    background-position: center;
-  } */
+
   
   
