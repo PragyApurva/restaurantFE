@@ -10,9 +10,12 @@
   right: 82%;
   height: 100%;
   position: fixed;
+  z-index: 10000;
 }
 
-.nav {
+/* .nav { */
+
+ul{
   list-style-type: none;
   display: flex;
   flex-direction: column;

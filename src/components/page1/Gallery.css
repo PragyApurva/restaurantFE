@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+.gallery.h2{
+  width: 200px;
+}
 .gallery {
   text-align: center;
   display: flex;
@@ -11,31 +14,47 @@
     font-size: 24px;
 
 }
-.gallery.h2{
-  width: 200px;
-}
-
 .gallery-grid {
-  margin-top: 24px;
+  margin: 24px auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 5px; /* Remove gap between grid items */
-  justify-content: center;
-  align-items: center;
+  grid-template-columns: repeat(3, 1fr); /* Force 3 columns */
+  gap: 20px;
+  max-width: 1200px;
+  width: 90%;
 }
 
 .gallery-item {
-  position: relative;
+  aspect-ratio: 1/1; /* Make items square */
   width: 100%;
-  /* This maintains a 1:1 aspect ratio */
+  height: 300px;
   overflow: hidden;
+  position: relative;
 }
 
 .gallery-item img {
-  position: relative;
-  width:300px;
+  width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+  }
+  .gallery-item {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .gallery-grid {
+    grid-template-columns: 1fr; /* 1 column on mobile */
+  }
+  .gallery-item {
+    height: 250px;
+  }
 }
 
 .btn {

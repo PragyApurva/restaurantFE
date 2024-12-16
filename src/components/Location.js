@@ -3,8 +3,13 @@ import { APIProvider, Map, Marker } from "@vis.gl/react-google-maps";
 import "./Location.css";
 
 function Location() {
-  const position = { lat: 37.7735, lng: -122.3871 }; // San Francisco coordinates
-
+  const position = { lat: 12.997014435146525, lng: 77.69106675409003 }; // San Francisco coordinates
+  
+  const handleMapClick = () => {
+    const googleMapsUrl = `https://www.google.com/maps?q=${position.lat},${position.lng}`;
+    window.open(googleMapsUrl, "_blank");
+  };
+  
   return (
     <section className="location" id="reservations">
       <h2>Location</h2>
