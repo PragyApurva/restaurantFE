@@ -29,3 +29,33 @@
   height: 500px;
 
 }
+
+@media (max-width:600px) {
+
+  .promo-grid {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 15px; 
+    justify-content: center;
+    align-items: center;
+    width: 90vw; 
+    height: 150vh; 
+    margin: auto; 
+   
+    margin-top: 8vw;
+  }
+  .grid-item {
+    display: flex;
+  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    
+    height: 100%; 
+    width: 100%; 
+  }
+  
+}

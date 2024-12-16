@@ -12,6 +12,7 @@ const Promo = () => {
 
   return (
     <div className="promo-grid">
+      
       {gridSections.map((section, index) => (
         <div
           key={index}

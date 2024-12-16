@@ -4,9 +4,10 @@
   background-position: center;
   background-attachment: fixed;
   position: absolute;
-  width: 100%;
+  width: 500%;
   top: 0;
   left: 0;
+  background-repeat: repeat-y;
   height: 100vh;
   z-index: -1;
 }
@@ -44,5 +45,33 @@
     background-size: cover;
     background-position: center;
   } */
-  
+  @media (max-width:600px) {
+    
+
+    .hero h1 {
+      font-family: "Anton SC", sans-serif;
+      font-size: 36px;
+      color: #EA2306;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+    }
+    .firstImage{
+
+      background-image: url('../../../public/first.jpg');
+      /* background: url('../../public/first.jpg') no-repeat; */
+      /* width: 100vw; */
+      height: 300px;
+      width: 97%;
+
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2.5vw;
+      z-index: -1;
+      
+      margin: auto;
+      border-radius: 15px;
+    }
+  }
   
