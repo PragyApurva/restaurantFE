@@ -1,23 +1,68 @@
+// <<<<<<< pjn
+import React, { useEffect, useRef } from "react";
+import Promo from "./Promo.js";
+import Gallery from "./Gallery.js";
+import MailingList from "./MailingList.js";
+import Location from "../Location.js";
+import photo1 from './images/logog.png';
+import photo2 from './images/background.png';
+import "./Hero.css";
+
+function Hero({ scrollTo }) {
+  const promoRef = useRef(null);
+  const mailingListRef = useRef(null);
+  
+  
+
+  useEffect(() => {
+    let targetRef;
+    switch(scrollTo) {
+     
+      case 'promo':
+        targetRef = promoRef;
+        break;
+      case 'mailing-list':
+        targetRef = mailingListRef;
+        break;
+      
+      default:
+        return;
+    }
+
+    if (targetRef && targetRef.current) {
+      targetRef.current.scrollIntoView({ behavior: 'smooth' ,block: "end", inline: "nearest"});
+    }
+  }, [scrollTo]);
+=======
 import React from "react";
 import Promo from "./Promo.js"; 
 import Gallery from "./Gallery.js"; 
 import MailingList from "./MailingList.js"; 
 import Location from "../Location.js"; 
 import "./Hero.css"; 
+// >>>>>>> master
 
-function Hero() {
   return (
+    
     <section className="hero" id="home">
+// <<<<<<< pjn
+//       <img src={photo2} alt="logo" className="bg" />
+// =======
+// >>>>>>> master
       <div className="hero-overlay">
         <img src="/images/logog.png" alt="logo" className="logo" />
         <h1>California Republic</h1>
         <div className="firstImage"></div>
       </div>
-    
+   
       <div className="page1">
-        <Promo />
+        <div ref={promoRef}>
+          <Promo />
+        </div>
         <Gallery />
-        <MailingList />
+        <div ref={mailingListRef}>
+          <MailingList />
+        </div>
       </div>
       <Location />
     </section>
