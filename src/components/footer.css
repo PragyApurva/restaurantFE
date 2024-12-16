@@ -50,4 +50,25 @@
     color: rgb(194, 194, 194);
     text-transform: uppercase;
   }
+
+  @media (max-width:600px) {
+    .foot{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin: auto;
+        margin-top: 25px;
+        left: -50px;
+
+        
+      }
+      .footer-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+       
+        
+        
+      }
+  }
   
