@@ -1,73 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
-/* .bg{
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  position: absolute;
-  width: 500%;
-  top: 0;
-  left: 0;
-  background-repeat: repeat-y;
-  height: 100vh;
-  z-index: -1;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
 .hero {
     text-align: center;
     padding: 0px 0px;
-  }
-  
-  .hero-overlay {
+    font-family: 'Roboto', sans-serif; 
+}
+
+.hero-overlay {
     max-width: 100%;
     margin: auto;
     margin-top: 50px;
     text-transform: uppercase;
-  }
-  
-  .hero h1 {
-    font-family: "Anton SC", sans-serif;
-    font-size: 48px;
+}
+
+.hero h1 {
+    font-family: "Quicksand", serif;
     color: #EA2306;
     margin-bottom: 20px;
-    letter-spacing: 5px;
-  }
-  .firstImage{
+    font-weight: 700;
+    font-size: 35px;
+    font-style: normal;
+    /* letter-spacing: 5px; */
+}
 
-    background-image: url('../../../public/firstJuice.jpg');
+.logo {
+    width: 7vw; /* Adjust logo size */
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5%; /* Optional: Makes the logo circular */
+}
+
+.firstImage {
+    background-image:url('../../../public/firstJuice.jpg'); /* Corrected path for static asset */
     height: 50vw;
     background-size: cover;
-  }
-  
-/*   
-  .hero .firstImage {
-    background-size: cover;
     background-position: center;
-  } */
-  @media (max-width:600px) {
-    
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 95%; /* Ensures consistency across viewports */
+}
 
+@media (max-width: 600px) {
     .hero h1 {
-      font-family: "Anton SC", sans-serif;
-      font-size: 36px;
-      color: #EA2306;
-      margin-bottom: 20px;
-      letter-spacing: 2px;
+        font-size: 36px;
+        letter-spacing: 2px;
     }
-    .firstImage{
 
-      background-image: url('../../../public/firstJuice.jpg');
-      /* background: url('../../public/first.jpg') no-repeat; */
-      /* width: 100vw; */
-      height: 300px;
-      width: 97%;
-
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 2.5vw;
-      z-index: -1;
-      
-      margin: auto;
-      border-radius: 15px;
+    .logo {
+        width: 75px; /* Scale logo for smaller screens */
     }
-  }
+
+    .firstImage {
+        height: 300px;
+        width: 97%;
+        margin: auto;
+        margin-top: 2.5vw;
+        border-radius: 15px;
+    }
+}

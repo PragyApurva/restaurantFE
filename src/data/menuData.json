@@ -1,0 +1,146 @@
+{
+    "Juices": {
+      "Water Melon": 45,
+      "Apple": 69,
+      "Orange": 49,
+      "Papaya": 45,
+      "Musk Melon": 59,
+      "Banana": 45,
+      "Pine Apple": 49,
+      "Black Grapes": 75,
+      "Chikoo": 59
+    },
+    "Milk Shakes": {
+      "Vanilla Milk Shake": 70,
+      "Oreo Milk Shake": 80,
+      "Kit Kat Milk Shake": 80,
+      "Blue Berry Shake": 80,
+      "Mango Shake": 80,
+      "Strawberry Shake": 80,
+      "Pine Apple Shake": 80,
+      "Browny Shake": 100,
+      "Kiwi Shake": 100,
+      "Chocolate Shake": 100,
+      "Butter Scotch": 100,
+      "Dry Fruit Shake": 130
+    },
+    "Mojitos": {
+      "Blue Lime": 79,
+      "Virgin": 79,
+      "Strawberry": 79,
+      "Blue Berry": 79,
+      "Red Velvet": 79,
+      "Lemon Soda": 49,
+      "Lemon Soda (Sweet & Salt)": 59,
+      "Black Current": 79,
+      "Water Melon": 79,
+      "Peach Ice Tea": 69,
+      "Lemon Ice Tea": 69
+    },
+    "Rolls": {
+      "Veg Roll": 89,
+      "Veg Spicy Roll": 95,
+      "Paneer Roll": 95,
+      "Single Egg Roll": 95,
+      "Double Egg Roll": 99,
+      "Schezwan Roll": 105,
+      "Chicken Roll": 120
+    },
+    "Bites": {
+      "French Fries": 79,
+      "Perry Perry Fries": 89,
+      "Muska Bun": 49,
+      "Cheese Bun": 59,
+      "Cheese Spicy Bun": 65,
+      "Garlic Bread": 59,
+      "Vada Pav": 49,
+      "Chilly Cheese Toast": 65,
+      "Potato Cheese Shorts": 85,
+      "Smiley": 69,
+      "Samosa (1pc)": 35,
+      "Samosa (2pc)": 60,
+      "Momos Veg 6pcs": 85,
+      "Corn Cheese 5pcs": 85,
+      "Paneer 5pcs": 85
+    },
+    "Sandwich": {
+      "Cheese Chutney Sandwich": 59,
+      "Bombay Kaccha Sandwich": 79,
+      "Mumbai Sandwich": 79,
+      "Veg Grilled Sandwich": 89,
+      "Corn Masala": 69,
+      "Paneer Taka Tak": 79,
+      "Spicy Paneer Tikka": 79,
+      "Chilly Cheese Sandwich": 79,
+      "Bread & Jam": 49,
+      "Russian Sandwich": 89,
+      "Mexican Sandwich": 89,
+      "Curd Sandwich": 89,
+      "Maharaja Sandwich": 119,
+      "Junglee Sandwich": 149
+    },
+    "Fruit Salad": {
+      "Classic Fruit Salad": 59,
+      "Supreme Fruit Salad": 89,
+      "Special Fruit Salad": 99,
+      "Fruit Salad With Ice Cream": 109,
+      "Fruits Falooda": 110
+    },
+    "Beverages": {
+      "Cold Coffee": 79,
+      "Choco Cold Coffee": 89,
+      "C.R Special One": 109,
+      "Strong Cold Coffee": 99,
+      "Cold Coffee With Ice Cream": 115
+    },
+    "Maggie": {
+      "Plain Maggie": 55,
+      "Veg Maggie": 55,
+      "Masala Maggie": 65,
+      "Mexican Maggie": 75,
+      "Corn & Cheese Maggie": 85,
+      "Schezwan Maggie": 75,
+      "Tandoori Maggie": 75,
+      "Paneer Maggie": 90,
+      "C.R Special Maggie": 90
+    },
+    "Burger": {
+      "Aloo Tikka Burger": 69,
+      "Veg Burger": 79,
+      "Mexican Burger": 89,
+      "C.R Special Burger": 99,
+      "Paneer Burger": 99,
+      "Maharaja Burger": 119
+    },
+    "Pasta": {
+      "White Sauce Pasta": 119,
+      "Cheese Burst Pasta": 129,
+      "Supreme Pasta": 139
+    },
+    "Chats": {
+      "Bombay Bhel": 49,
+      "Papdi Chaat": 49,
+      "Samosa Chaat": 55,
+      "Dahi Samosa Chaat": 65,
+      "Aloo Tikki Chaat": 65,
+      "Special Chaat": 55,
+      "Dahi Puri": 65,
+      "Sev Puri": 55,
+      "Special Dahi Puri": 65
+    },
+    "Rice": {
+      "Veg Fried Rice": 79,
+      "Egg Fried Rice": 79,
+      "Classical Veg Fried Rice": 79,
+      "Spicy Schezwan Fried Rice": 89,
+      "Paneer Fried Rice": 89,
+      "Tomato Fried Rice": 79,
+      "Pulav Rice": 79,
+      "Poha": 49
+    },
+    "Egg": {
+      "Omelette 2 Egg": 45,
+      "Bread Omelette": 59
+    }
+  }
+  

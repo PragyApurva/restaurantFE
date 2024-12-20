@@ -35,11 +35,8 @@ function Hero({ scrollTo }) {
   }, [scrollTo]);
   return (   
     <section className="hero" id="home">
-
-    <img src={'./images/background.png'} alt="logo" className="bg" />
-
       <div className="hero-overlay">
-        <img src="/images/logog.png" alt="logo" className="logo" />
+        <img src="/logo.jpeg" alt="logo" className="logo" />
         <h1>California Republic</h1>
         <div className="firstImage"></div>
       </div>

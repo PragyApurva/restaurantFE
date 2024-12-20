@@ -1,69 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
-.menu-container {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    padding: 20px;
-    text-align: center; /* Centers all text inside the container */
-  }
-  
-  .menu-heading {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-    margin-top: 48px;
-    font-family: "Anton SC", sans-serif;
-    color: #1e1919;
-    letter-spacing: 5px;
-  }
-  
-  .menu-subheading {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: #000000;
-    font-family: "Anton SC", sans-serif;
-    color: #1e1919;
-    letter-spacing: 3px;
-  }
-  
-  .menu-description {
-    font-size: 1rem;
-    color: #666;
-    margin-bottom: 15px;
-  }
-  
-  .menu-item {
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ffffff;
-    padding-bottom: 10px;
-  }
-  
-  .menu-item-title {
-    font-size: 1.2rem;
-    font-weight: 300;
-    margin: 5px 0;
-    /*color: #444;*/
-    font-family: "Anton SC", sans-serif;
-    color: #1e1919;
-    letter-spacing: 2px;
-  }
-  
-  .menu-item-description {
-    font-size: 1rem;
-    color: #777;
-    margin: 5px 0;
-    font-style: italic;
-  }
-  
-  .menu-item-price {
-    font-size: 1rem;
-    font-weight: bold;
-    color: #000;
-    margin-top: 5px;
-  }
+/* @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap'); */
 
-  .hero-overlay {
+.menu-container {
+    font-family: Raleway, sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px; 
+    text-align: center; 
+    background-color: #f9f9f9;
+    border-radius: 8px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.hero-overlay {
     font-family: "Anton SC", sans-serif;
     font-size: 24px;
     color: #EA2306;
@@ -73,5 +21,73 @@
     margin: auto;
     margin-top: 50px;
     text-transform: uppercase;
-  }
-  
+}
+
+.menu-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 48px;
+    font-family: "Raleway Bold 300", sans-serif;
+    color: #1e1919;
+    letter-spacing: 5px;
+    text-transform: uppercase; /* Consistent style for headings */
+    border-bottom: 2px solid #ea2306; /* Add a bottom border for emphasis */
+    display: inline-block; /* Only underline the text */
+    padding-bottom: 5px;
+}
+
+.menu-subheading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: "Raleway SemiBold 300", sans-serif;
+    color: #1e1919;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* Add grid layout for menu items */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 columns */
+    gap: 20px; /* Space between items */
+    margin-top: 10px;
+    text-align: left; /* Align menu items to the left for better structure */
+}
+
+.menu-item {
+    background-color: #ffffff; /* Background for each item */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center text inside each item */
+}
+
+.menu-item-title {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 5px 0;
+    font-family: "Raleway SemiBold 300", sans-serif;
+    color: #1e1919;
+    letter-spacing: 2px;
+}
+
+.menu-item-price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    margin-top: 5px;
+}
+
+.menu-item-description {
+    font-size: 1rem;
+    color: #777;
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.menu-item:last-child {
+    border-bottom: none; /* Remove border for the last item */
+}
